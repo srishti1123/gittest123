@@ -2,8 +2,8 @@ name: Python_package
 
 on: [push]
 
-env:
-Fullname: Srishti
+# env:
+# Fullname: Srishti
 
 jobs:
   build:
@@ -24,8 +24,3 @@ jobs:
         run: python -c "import sys; print(sys.version)"
       - name: Run Python Program
         run: python loops.py
-  greeting_job:
-    runs-on: ubuntu-latest
-    steps:
-      - name: HELLO
-        run: echo "hello $Fullname"
