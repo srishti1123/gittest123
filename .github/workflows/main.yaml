@@ -20,4 +20,4 @@ jobs:
       - name: Display Python version
         run: python -c "import sys; print(sys.version)"
       - name: Run Python Program
-      run: python loops.py
+        run: python loops.py
