@@ -24,3 +24,7 @@ jobs:
         run: python -c "import sys; print(sys.version)"
       - name: Run Python Program
         run: python loops.py
+      - name: Run Python Program
+        run: |
+            echo "hello"
+            echo "joban"
