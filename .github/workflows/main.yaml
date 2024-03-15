@@ -3,7 +3,7 @@ name: Python_package
 on: [push]
 
 env:
-NAME: Srishti
+Fullname: Srishti
 
 jobs:
   build:
@@ -28,4 +28,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: HELLO
-        run: echo "hello $NAME"
+        run: echo "hello $Fullname"
