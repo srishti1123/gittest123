@@ -2,13 +2,13 @@ name: test
 on: push
 jobs:
   job1:
-   runs-on: ubuntu-latest
+   runs-on: self-hosted
    steps:
      - name: hello
        run: echo "good morning"
     
   job2:
-   runs-on: ubuntu-latest
+   runs-on: self-hosted
    steps:
     - name: byeee
       run: echo "good night"
