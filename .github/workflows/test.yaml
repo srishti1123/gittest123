@@ -9,6 +9,7 @@ jobs:
     
   job2:
    runs-on: self-hosted
+   needs: job1
    steps:
     - name: byeee
       run: echo "good night"
